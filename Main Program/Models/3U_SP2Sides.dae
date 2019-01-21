@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.79.0 commit date:2018-03-22, commit time:14:10, hash:f4dc9f9d68b</authoring_tool>
+    </contributor>
+    <created>2018-06-15T12:17:10</created>
+    <modified>2018-06-15T12:17:10</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_cameras>
+    <camera id="Camera-camera" name="Camera">
+      <optics>
+        <technique_common>
+          <perspective>
+            <xfov sid="xfov">49.13434</xfov>
+            <aspect_ratio>1.777778</aspect_ratio>
+            <znear sid="znear">0.1</znear>
+            <zfar sid="zfar">100</zfar>
+          </perspective>
+        </technique_common>
+      </optics>
+      <extra>
+        <technique profile="blender">
+          <shiftx sid="shiftx" type="float">0</shiftx>
+          <shifty sid="shifty" type="float">0</shifty>
+          <YF_dofdist sid="YF_dofdist" type="float">0</YF_dofdist>
+        </technique>
+      </extra>
+    </camera>
+  </library_cameras>
+  <library_lights>
+    <light id="Lamp-light" name="Lamp">
+      <technique_common>
+        <point>
+          <color sid="color">1 1 1</color>
+          <constant_attenuation>1</constant_attenuation>
+          <linear_attenuation>0</linear_attenuation>
+          <quadratic_attenuation>0.00111109</quadratic_attenuation>
+        </point>
+      </technique_common>
+      <extra>
+        <technique profile="blender">
+          <type sid="type" type="int">0</type>
+          <flag sid="flag" type="int">0</flag>
+          <mode sid="mode" type="int">8192</mode>
+          <gamma sid="blender_gamma" type="float">1</gamma>
+          <red sid="red" type="float">1</red>
+          <green sid="green" type="float">1</green>
+          <blue sid="blue" type="float">1</blue>
+          <shadow_r sid="blender_shadow_r" type="float">0</shadow_r>
+          <shadow_g sid="blender_shadow_g" type="float">0</shadow_g>
+          <shadow_b sid="blender_shadow_b" type="float">0</shadow_b>
+          <energy sid="blender_energy" type="float">1</energy>
+          <dist sid="blender_dist" type="float">29.99998</dist>
+          <spotsize sid="spotsize" type="float">75</spotsize>
+          <spotblend sid="spotblend" type="float">0.15</spotblend>
+          <halo_intensity sid="blnder_halo_intensity" type="float">1</halo_intensity>
+          <att1 sid="att1" type="float">0</att1>
+          <att2 sid="att2" type="float">1</att2>
+          <falloff_type sid="falloff_type" type="int">2</falloff_type>
+          <clipsta sid="clipsta" type="float">1.000799</clipsta>
+          <clipend sid="clipend" type="float">30.002</clipend>
+          <bias sid="bias" type="float">1</bias>
+          <soft sid="soft" type="float">3</soft>
+          <compressthresh sid="compressthresh" type="float">0.04999995</compressthresh>
+          <bufsize sid="bufsize" type="int">2880</bufsize>
+          <samp sid="samp" type="int">3</samp>
+          <buffers sid="buffers" type="int">1</buffers>
+          <filtertype sid="filtertype" type="int">0</filtertype>
+          <bufflag sid="bufflag" type="int">0</bufflag>
+          <buftype sid="buftype" type="int">2</buftype>
+          <ray_samp sid="ray_samp" type="int">1</ray_samp>
+          <ray_sampy sid="ray_sampy" type="int">1</ray_sampy>
+          <ray_sampz sid="ray_sampz" type="int">1</ray_sampz>
+          <ray_samp_type sid="ray_samp_type" type="int">0</ray_samp_type>
+          <area_shape sid="area_shape" type="int">1</area_shape>
+          <area_size sid="area_size" type="float">0.1</area_size>
+          <area_sizey sid="area_sizey" type="float">0.1</area_sizey>
+          <area_sizez sid="area_sizez" type="float">1</area_sizez>
+          <adapt_thresh sid="adapt_thresh" type="float">0.000999987</adapt_thresh>
+          <ray_samp_method sid="ray_samp_method" type="int">1</ray_samp_method>
+          <shadhalostep sid="shadhalostep" type="int">0</shadhalostep>
+          <sun_effect_type sid="sun_effect_type" type="int">0</sun_effect_type>
+          <skyblendtype sid="skyblendtype" type="int">1</skyblendtype>
+          <horizon_brightness sid="horizon_brightness" type="float">1</horizon_brightness>
+          <spread sid="spread" type="float">1</spread>
+          <sun_brightness sid="sun_brightness" type="float">1</sun_brightness>
+          <sun_size sid="sun_size" type="float">1</sun_size>
+          <backscattered_light sid="backscattered_light" type="float">1</backscattered_light>
+          <sun_intensity sid="sun_intensity" type="float">1</sun_intensity>
+          <atm_turbidity sid="atm_turbidity" type="float">2</atm_turbidity>
+          <atm_extinction_factor sid="atm_extinction_factor" type="float">1</atm_extinction_factor>
+          <atm_distance_factor sid="atm_distance_factor" type="float">1</atm_distance_factor>
+          <skyblendfac sid="skyblendfac" type="float">1</skyblendfac>
+          <sky_exposure sid="sky_exposure" type="float">1</sky_exposure>
+          <sky_colorspace sid="sky_colorspace" type="int">0</sky_colorspace>
+        </technique>
+      </extra>
+    </light>
+  </library_lights>
+  <library_images/>
+  <library_effects>
+    <effect id="CellColorYMinus-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.08694618 0.3839298 0.64 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="CellColorYPlus-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.0681508 0.64 0.317234 1</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.5 0.5 0.5 1</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">50</float>
+            </shininess>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="CellColorYMinus-material" name="CellColorYMinus">
+      <instance_effect url="#CellColorYMinus-effect"/>
+    </material>
+    <material id="CellColorYPlus-material" name="CellColorYPlus">
+      <instance_effect url="#CellColorYPlus-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="_U_SP2Sides_002-mesh" name="3U SP2Sides.002">
+      <mesh>
+        <source id="_U_SP2Sides_002-mesh-positions">
+          <float_array id="_U_SP2Sides_002-mesh-positions-array" count="108">-0.237 -0.1005 -0.08999997 -0.21 -0.1005 -0.08999997 -0.25 -0.1005 -0.07699996 -0.237 -0.1005 -0.00999999 -0.25 -0.1005 -0.023 -0.21 -0.1005 -0.00999999 -0.25 -0.1005 -0.08999997 -0.25 -0.1005 -0.00999999 -0.277 -0.1005 -0.08999997 -0.29 -0.1005 -0.07699996 -0.29 -0.1005 -0.023 -0.277 -0.1005 -0.00999999 -0.137 -0.1005 -0.08999997 -0.11 -0.1005 -0.08999997 -0.15 -0.1005 -0.07699996 -0.137 -0.1005 -0.00999999 -0.15 -0.1005 -0.023 -0.11 -0.1005 -0.00999999 -0.15 -0.1005 -0.08999997 -0.15 -0.1005 -0.00999999 -0.177 -0.1005 -0.08999997 -0.1899999 -0.1005 -0.07699996 -0.1899999 -0.1005 -0.023 -0.177 -0.1005 -0.00999999 -0.037 -0.1005 -0.08999997 -0.00999999 -0.1005 -0.08999997 -0.04999995 -0.1005 -0.07699996 -0.037 -0.1005 -0.00999999 -0.04999995 -0.1005 -0.023 -0.00999999 -0.1005 -0.00999999 -0.04999995 -0.1005 -0.08999997 -0.04999995 -0.1005 -0.00999999 -0.07699996 -0.1005 -0.08999997 -0.08999997 -0.1005 -0.07699996 -0.08999997 -0.1005 -0.023 -0.07699996 -0.1005 -0.00999999</float_array>
+          <technique_common>
+            <accessor source="#_U_SP2Sides_002-mesh-positions-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_U_SP2Sides_002-mesh-normals">
+          <float_array id="_U_SP2Sides_002-mesh-normals-array" count="45">2.75947e-7 -1 0 1.86264e-7 -1 0 1.86265e-7 -1 0 1.86265e-7 -1 0 2.75947e-7 -1 0 0 -1 -2.65334e-6 0 -1 0 0 -1 1.32667e-6 0 -1 -1.79101e-6 0 -1 8.95503e-7 1.86265e-7 -1 1.79101e-6 1.86265e-7 -1 0 1.86265e-7 -1 0 1.86265e-7 -1 -1.79101e-6 0 -1 -1.32667e-6</float_array>
+          <technique_common>
+            <accessor source="#_U_SP2Sides_002-mesh-normals-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_U_SP2Sides_002-mesh-vertices">
+          <input semantic="POSITION" source="#_U_SP2Sides_002-mesh-positions"/>
+        </vertices>
+        <triangles material="CellColorYMinus-material" count="30">
+          <input semantic="VERTEX" source="#_U_SP2Sides_002-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#_U_SP2Sides_002-mesh-normals" offset="1"/>
+          <p>6 0 2 0 8 0 8 1 2 1 9 1 9 2 2 2 4 2 9 3 4 3 10 3 10 1 4 1 11 1 11 4 4 4 7 4 0 5 1 5 2 5 2 6 1 6 5 6 2 6 5 6 4 6 4 7 5 7 3 7 18 6 14 6 20 6 20 8 14 8 21 8 21 6 14 6 16 6 21 6 16 6 22 6 22 9 16 9 23 9 23 6 16 6 19 6 12 6 13 6 14 6 14 6 13 6 17 6 14 6 17 6 16 6 16 6 17 6 15 6 30 6 26 6 32 6 32 10 26 10 33 10 33 11 26 11 28 11 33 12 28 12 34 12 34 13 28 13 35 13 35 6 28 6 31 6 24 6 25 6 26 6 26 6 25 6 29 6 26 6 29 6 28 6 28 14 29 14 27 14</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_U_SP2Sides_001-mesh" name="3U SP2Sides.001">
+      <mesh>
+        <source id="_U_SP2Sides_001-mesh-positions">
+          <float_array id="_U_SP2Sides_001-mesh-positions-array" count="105">-0.237 4.9999e-4 -0.00999999 -0.21 4.99991e-4 -0.00999999 -0.25 4.99989e-4 -0.023 -0.237 4.9999e-4 -0.08999997 -0.25 4.99989e-4 -0.07699996 -0.21 4.99991e-4 -0.08999997 -0.25 4.99989e-4 -0.00999999 -0.25 4.99989e-4 -0.08999997 -0.277 4.99988e-4 -0.00999999 -0.29 4.99987e-4 -0.023 -0.29 4.99987e-4 -0.07699996 -0.277 4.99988e-4 -0.08999997 -0.137 4.99994e-4 -0.00999999 -0.11 4.99995e-4 -0.00999999 -0.15 4.99993e-4 -0.023 -0.137 4.99994e-4 -0.08999997 -0.15 4.99993e-4 -0.07699996 -0.11 4.99995e-4 -0.08999997 -0.15 4.99993e-4 -0.00999999 -0.177 4.99992e-4 -0.00999999 -0.1899999 4.99992e-4 -0.023 -0.1899999 4.99992e-4 -0.07699996 -0.177 4.99992e-4 -0.08999997 -0.037 4.99998e-4 -0.00999999 -0.00999999 5e-4 -0.00999999 -0.04999995 4.99998e-4 -0.023 -0.037 4.99998e-4 -0.08999997 -0.04999995 4.99998e-4 -0.07699996 -0.00999999 5e-4 -0.08999997 -0.04999995 4.99998e-4 -0.00999999 -0.04999995 4.99998e-4 -0.08999997 -0.07699996 4.99997e-4 -0.00999999 -0.08999997 4.99996e-4 -0.023 -0.08999997 4.99996e-4 -0.07699996 -0.07699996 4.99997e-4 -0.08999997</float_array>
+          <technique_common>
+            <accessor source="#_U_SP2Sides_001-mesh-positions-array" count="35" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_U_SP2Sides_001-mesh-normals">
+          <float_array id="_U_SP2Sides_001-mesh-normals-array" count="57">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#_U_SP2Sides_001-mesh-normals-array" count="19" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_U_SP2Sides_001-mesh-vertices">
+          <input semantic="POSITION" source="#_U_SP2Sides_001-mesh-positions"/>
+        </vertices>
+        <triangles material="CellColorYPlus-material" count="29">
+          <input semantic="VERTEX" source="#_U_SP2Sides_001-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#_U_SP2Sides_001-mesh-normals" offset="1"/>
+          <p>6 0 2 0 8 0 8 1 2 1 9 1 9 2 2 2 4 2 9 3 4 3 10 3 10 4 4 4 11 4 11 0 4 0 7 0 0 5 1 5 2 5 2 6 1 6 5 6 2 3 5 3 4 3 4 7 5 7 3 7 18 8 14 8 19 8 19 3 14 3 20 3 20 9 14 9 16 9 20 10 16 10 21 10 21 11 16 11 22 11 12 12 13 12 14 12 14 6 13 6 17 6 14 2 17 2 16 2 16 13 17 13 15 13 29 0 25 0 31 0 31 9 25 9 32 9 32 9 25 9 27 9 32 14 27 14 33 14 33 2 27 2 34 2 34 0 27 0 30 0 23 15 24 15 25 15 25 16 24 16 28 16 25 17 28 17 27 17 27 18 28 18 26 18</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="_U_SP2Sides-mesh" name="3U SP2Sides">
+      <mesh>
+        <source id="_U_SP2Sides-mesh-positions">
+          <float_array id="_U_SP2Sides-mesh-positions-array" count="456">-0.08699995 -0.04999995 -0.03999996 -0.05999994 -0.04999995 -0.03999996 -0.08699995 -0.05049997 -0.03999996 -0.05999994 -0.05049997 -0.03999996 -0.09999996 -0.04999995 -0.02699995 -0.09999996 -0.05049997 -0.02699995 -0.08699995 -0.04999995 0.03999996 -0.09999996 -0.04999995 0.02699995 -0.08699995 -0.05049997 0.03999996 -0.09999996 -0.05049997 0.02699995 -0.05999994 -0.04999995 0.03999996 -0.05999994 -0.05049997 0.03999996 -0.09999996 -0.05049997 -0.03999996 -0.09999996 -0.04999995 -0.03999996 -0.09999996 -0.04999995 0.03999996 -0.09999996 -0.05049997 0.03999996 -0.127 -0.05000001 -0.03999996 -0.127 -0.05049997 -0.03999996 -0.1399999 -0.05000001 -0.02699995 -0.1399999 -0.05049997 -0.02699995 -0.1399999 -0.05000001 0.02699995 -0.1399999 -0.05049997 0.02699995 -0.127 -0.05000001 0.03999996 -0.127 -0.05049997 0.03999996 0.01300001 -0.04999995 -0.03999996 0.03999996 -0.04999995 -0.03999996 0.01300001 -0.05049997 -0.03999996 0.03999996 -0.05049997 -0.03999996 0 -0.04999995 -0.02699995 0 -0.05049997 -0.02699995 0.01300001 -0.04999995 0.03999996 0 -0.04999995 0.02699995 0.01300001 -0.05049997 0.03999996 0 -0.05049997 0.02699995 0.03999996 -0.04999995 0.03999996 0.03999996 -0.05049997 0.03999996 0 -0.05049997 -0.03999996 0 -0.04999995 -0.03999996 0 -0.04999995 0.03999996 0 -0.05049997 0.03999996 -0.02699995 -0.04999995 -0.03999996 -0.02699995 -0.05049997 -0.03999996 -0.03999996 -0.04999995 -0.02699995 -0.03999996 -0.05049997 -0.02699995 -0.03999996 -0.04999995 0.02699995 -0.03999996 -0.05049997 0.02699995 -0.02699995 -0.04999995 0.03999996 -0.02699995 -0.05049997 0.03999996 0.113 -0.04999995 -0.03999996 0.14 -0.04999995 -0.03999996 0.113 -0.05049997 -0.03999996 0.14 -0.05049997 -0.03999996 0.1 -0.04999995 -0.02699995 0.1 -0.05049997 -0.02699995 0.113 -0.04999995 0.03999996 0.1 -0.04999995 0.02699995 0.113 -0.05049997 0.03999996 0.1 -0.05049997 0.02699995 0.14 -0.04999995 0.03999996 0.14 -0.05049997 0.03999996 0.1 -0.05049997 -0.03999996 0.1 -0.04999995 -0.03999996 0.1 -0.04999995 0.03999996 0.1 -0.05049997 0.03999996 0.07300001 -0.04999995 -0.03999996 0.07300001 -0.05049997 -0.03999996 0.06 -0.04999995 -0.02699995 0.06 -0.05049997 -0.02699995 0.06 -0.04999995 0.02699995 0.06 -0.05049997 0.02699995 0.07300001 -0.04999995 0.03999996 0.07300001 -0.05049997 0.03999996 -0.08699995 0.04999995 0.03999996 -0.05999994 0.04999995 0.03999996 -0.08699995 0.05049997 0.03999996 -0.05999994 0.05049997 0.03999996 -0.09999996 0.04999995 0.02699995 -0.09999996 0.05049997 0.02699995 -0.08699995 0.04999995 -0.03999996 -0.09999996 0.04999995 -0.02699995 -0.08699995 0.05049997 -0.03999996 -0.09999996 0.05049997 -0.02699995 -0.05999994 0.04999995 -0.03999996 -0.05999994 0.05049997 -0.03999996 -0.09999996 0.05049997 0.03999996 -0.09999996 0.04999995 0.03999996 -0.09999996 0.04999995 -0.03999996 -0.09999996 0.05049997 -0.03999996 -0.127 0.04999995 0.03999996 -0.127 0.05049997 0.03999996 -0.1399999 0.04999995 0.02699995 -0.1399999 0.05049997 0.02699995 -0.1399999 0.04999995 -0.02699995 -0.1399999 0.05049997 -0.02699995 -0.127 0.04999995 -0.03999996 -0.127 0.05049997 -0.03999996 0.01300001 0.04999995 0.03999996 0.03999996 0.04999995 0.03999996 0.01300001 0.05049997 0.03999996 0.03999996 0.05049997 0.03999996 0 0.04999995 0.02699995 0 0.05049997 0.02699995 0.01300001 0.04999995 -0.03999996 0 0.04999995 -0.02699995 0.01300001 0.05049997 -0.03999996 0 0.05049997 -0.02699995 0.03999996 0.04999995 -0.03999996 0.03999996 0.05049997 -0.03999996 0 0.05049997 0.03999996 0 0.04999995 0.03999996 0 0.04999995 -0.03999996 0 0.05049997 -0.03999996 -0.02699995 0.04999995 0.03999996 -0.02699995 0.05049997 0.03999996 -0.03999996 0.04999995 0.02699995 -0.03999996 0.05049997 0.02699995 -0.03999996 0.04999995 -0.02699995 -0.03999996 0.05049997 -0.02699995 -0.02699995 0.04999995 -0.03999996 -0.02699995 0.05049997 -0.03999996 0.113 0.04999995 0.03999996 0.14 0.04999995 0.03999996 0.113 0.05049997 0.03999996 0.14 0.05049997 0.03999996 0.1 0.04999995 0.02699995 0.1 0.05049997 0.02699995 0.113 0.04999995 -0.03999996 0.1 0.04999995 -0.02699995 0.113 0.05049997 -0.03999996 0.1 0.05049997 -0.02699995 0.14 0.04999995 -0.03999996 0.14 0.05049997 -0.03999996 0.1 0.05049997 0.03999996 0.1 0.04999995 0.03999996 0.1 0.04999995 -0.03999996 0.1 0.05049997 -0.03999996 0.07300001 0.04999995 0.03999996 0.07300001 0.05049997 0.03999996 0.06 0.04999995 0.02699995 0.06 0.05049997 0.02699995 0.06 0.04999995 -0.02699995 0.06 0.05049997 -0.02699995 0.07300001 0.04999995 -0.03999996 0.07300001 0.05049997 -0.03999996 -0.1499999 -0.05000001 0.04999995 -0.1499999 -0.05000001 -0.04999995 0.15 -0.04999995 -0.04999995 0.15 -0.04999995 0.04999995 0.15 0.04999995 -0.04999995 -0.1499999 0.04999995 -0.04999995 -0.1499999 0.04999995 0.04999995 0.15 0.04999995 0.04999995</float_array>
+          <technique_common>
+            <accessor source="#_U_SP2Sides-mesh-positions-array" count="152" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="_U_SP2Sides-mesh-normals">
+          <float_array id="_U_SP2Sides-mesh-normals-array" count="207">0 0 -1 -0.7071037 0 -0.70711 -0.7071099 0 -0.7071036 -0.7071037 0 0.70711 -0.7071099 0 0.7071036 0 0 1 1 0 0 -1 0 0 -0.7071111 0 0.7071024 -0.7071046 0 0.707109 -0.707111 0 -0.7071027 -0.7071049 0 -0.7071088 -0.7071084 0 0.7071053 -0.7071084 0 -0.7071053 -0.707111 0 0.7071027 0 1 0 -0.7070984 0 0.7071152 -0.7071021 0 -0.7071115 -0.7071049 0 0.7071088 -0.7071046 0 -0.707109 0 -1 0 0 -1 -3.58201e-6 2.75947e-7 -1 8.62335e-7 0 -1 2.71365e-7 2.75947e-7 -1 -1.72467e-6 0 -1 3.58201e-6 0 -1 -2.11664e-6 0 -1 2.82219e-6 0 -1 6.20882e-7 0 -1 -7.16402e-6 0 -1 3.44934e-6 2.25775e-7 -1 0 2.25775e-7 -1 -2.71364e-7 0 -1 7.16402e-6 0 -1 -6.20882e-7 0 -1 -3.44934e-6 2.25775e-7 -1 -7.05548e-7 2.25775e-7 -1 0 0 -1 1.791e-6 0 -1 -4.31168e-7 0 -1 -8.95502e-7 0 0 -1 0 0 -1 0 1 -8.62336e-7 0 1 0 -3.7253e-7 1 0 -3.72529e-7 1 0 -1.37974e-7 1 -3.44934e-6 0 1 7.05548e-7 0 1 -1.72467e-6 0 1 5.42729e-7 0 1 3.44934e-6 0 1 0 0 1 7.16402e-6 -1.37974e-7 1 -3.44934e-6 0 1 1.41109e-6 0 1 -2.71364e-7 -1.37974e-7 1 1.72467e-6 0 1 -7.16402e-6 0 1 0 -1.37974e-7 1 3.44934e-6 0 1 -7.05547e-7 0 1 5.42729e-7 -2.86561e-7 1 0 -2.86561e-7 1 -1.791e-6 0 1 -4.31168e-7 -2.86561e-7 1 8.95502e-7 0 0 1 0 0 1</float_array>
+          <technique_common>
+            <accessor source="#_U_SP2Sides-mesh-normals-array" count="69" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="_U_SP2Sides-mesh-vertices">
+          <input semantic="POSITION" source="#_U_SP2Sides-mesh-positions"/>
+        </vertices>
+        <triangles count="241">
+          <input semantic="VERTEX" source="#_U_SP2Sides-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#_U_SP2Sides-mesh-normals" offset="1"/>
+          <p>0 0 1 0 2 0 2 0 1 0 3 0 4 1 0 1 5 1 5 2 0 2 2 2 6 3 7 3 8 3 8 4 7 4 9 4 10 5 6 5 11 5 11 5 6 5 8 5 1 6 10 6 3 6 3 6 10 6 11 6 5 6 12 6 4 6 4 6 12 6 13 6 7 6 14 6 9 6 9 6 14 6 15 6 16 0 13 0 17 0 17 0 13 0 12 0 18 2 16 2 19 2 19 1 16 1 17 1 20 7 18 7 21 7 21 7 18 7 19 7 22 4 20 4 23 4 23 3 20 3 21 3 14 5 22 5 15 5 15 5 22 5 23 5 24 0 25 0 26 0 26 0 25 0 27 0 28 1 24 1 29 1 29 2 24 2 26 2 30 3 31 3 32 3 32 4 31 4 33 4 34 5 30 5 35 5 35 5 30 5 32 5 25 6 34 6 27 6 27 6 34 6 35 6 29 6 36 6 28 6 28 6 36 6 37 6 31 6 38 6 33 6 33 6 38 6 39 6 40 0 37 0 41 0 41 0 37 0 36 0 42 1 40 1 43 1 43 2 40 2 41 2 44 7 42 7 45 7 45 7 42 7 43 7 46 3 44 3 47 3 47 4 44 4 45 4 38 5 46 5 39 5 39 5 46 5 47 5 48 0 49 0 50 0 50 0 49 0 51 0 52 2 48 2 53 2 53 1 48 1 50 1 54 4 55 4 56 4 56 3 55 3 57 3 58 5 54 5 59 5 59 5 54 5 56 5 49 6 58 6 51 6 51 6 58 6 59 6 53 6 60 6 52 6 52 6 60 6 61 6 55 6 62 6 57 6 57 6 62 6 63 6 64 0 61 0 65 0 65 0 61 0 60 0 66 1 64 1 67 1 67 2 64 2 65 2 68 7 66 7 69 7 69 7 66 7 67 7 70 3 68 3 71 3 71 4 68 4 69 4 62 5 70 5 63 5 63 5 70 5 71 5 72 5 73 5 74 5 74 5 73 5 75 5 76 8 72 8 77 8 77 9 72 9 74 9 78 10 79 10 80 10 80 11 79 11 81 11 82 0 78 0 83 0 83 0 78 0 80 0 73 6 82 6 75 6 75 6 82 6 83 6 77 6 84 6 76 6 76 6 84 6 85 6 79 6 86 6 81 6 81 6 86 6 87 6 88 5 85 5 89 5 89 5 85 5 84 5 90 12 88 12 91 12 91 12 88 12 89 12 92 7 90 7 93 7 93 7 90 7 91 7 94 13 92 13 95 13 95 13 92 13 93 13 86 0 94 0 87 0 87 0 94 0 95 0 96 5 97 5 98 5 98 5 97 5 99 5 100 8 96 8 101 8 101 9 96 9 98 9 102 10 103 10 104 10 104 11 103 11 105 11 106 0 102 0 107 0 107 0 102 0 104 0 97 6 106 6 99 6 99 6 106 6 107 6 101 6 108 6 100 6 100 6 108 6 109 6 103 6 110 6 105 6 105 6 110 6 111 6 112 5 109 5 113 5 113 5 109 5 108 5 114 12 112 12 115 12 115 14 112 14 113 14 116 7 114 7 117 7 117 7 114 7 115 7 118 10 116 10 119 10 119 13 116 13 117 13 110 0 118 0 111 0 111 0 118 0 119 0 119 15 105 15 111 15 120 5 121 5 122 5 122 5 121 5 123 5 124 16 120 16 125 16 125 12 120 12 122 12 126 17 127 17 128 17 128 11 127 11 129 11 130 0 126 0 131 0 131 0 126 0 128 0 121 6 130 6 123 6 123 6 130 6 131 6 125 6 132 6 124 6 124 6 132 6 133 6 127 6 134 6 129 6 129 6 134 6 135 6 136 5 133 5 137 5 137 5 133 5 132 5 138 18 136 18 139 18 139 9 136 9 137 9 140 7 138 7 141 7 141 7 138 7 139 7 142 19 140 19 143 19 143 11 140 11 141 11 134 0 142 0 135 0 135 0 142 0 143 0 7 20 6 20 14 20 14 21 6 21 144 21 14 22 144 22 22 22 22 23 144 23 20 23 20 20 144 20 145 20 20 20 145 20 18 20 18 20 145 20 16 20 16 24 145 24 13 24 13 25 145 25 0 25 13 20 0 20 4 20 6 20 10 20 144 20 144 26 10 26 46 26 144 20 46 20 38 20 46 20 10 20 44 20 44 20 10 20 1 20 44 20 1 20 42 20 42 20 1 20 40 20 40 27 1 27 145 27 40 20 145 20 37 20 37 28 145 28 146 28 37 29 146 29 24 29 24 30 146 30 25 30 25 31 146 31 64 31 25 32 64 32 66 32 1 20 0 20 145 20 31 20 30 20 38 20 38 33 30 33 147 33 38 34 147 34 144 34 30 35 34 35 147 35 147 36 34 36 70 36 147 20 70 20 62 20 70 37 34 37 68 37 68 20 34 20 25 20 68 20 25 20 66 20 24 20 28 20 37 20 55 20 54 20 62 20 62 38 54 38 147 38 54 39 58 39 147 39 147 20 58 20 49 20 147 20 49 20 146 20 146 20 49 20 48 20 146 40 48 40 61 40 61 20 48 20 52 20 61 20 64 20 146 20 148 41 146 41 149 41 149 42 146 42 145 42 79 15 78 15 86 15 86 15 78 15 149 15 86 43 149 43 94 43 94 44 149 44 92 44 92 45 149 45 150 45 92 46 150 46 90 46 90 44 150 44 88 44 88 15 150 15 85 15 85 15 150 15 72 15 85 15 72 15 76 15 78 47 82 47 149 47 149 48 82 48 118 48 149 49 118 49 110 49 118 15 82 15 116 15 116 15 82 15 73 15 116 15 73 15 114 15 114 50 73 50 112 50 112 15 73 15 150 15 112 51 150 51 109 51 109 52 150 52 151 52 109 53 151 53 96 53 96 54 151 54 97 54 97 55 151 55 136 55 97 56 136 56 138 56 73 57 72 57 150 57 103 15 102 15 110 15 110 58 102 58 148 58 110 59 148 59 149 59 102 60 106 60 148 60 148 61 106 61 142 61 148 15 142 15 134 15 142 62 106 62 140 62 140 15 106 15 97 15 140 15 97 15 138 15 96 15 100 15 109 15 127 63 126 63 134 63 134 64 126 64 148 64 126 65 130 65 148 65 148 15 130 15 121 15 148 15 121 15 151 15 151 15 121 15 120 15 151 66 120 66 133 66 133 63 120 63 124 63 133 15 136 15 151 15 147 67 151 67 144 67 144 68 151 68 150 68 147 6 146 6 151 6 151 6 146 6 148 6 150 7 149 7 144 7 144 7 149 7 145 7</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="Camera" name="Camera" type="NODE">
+        <matrix sid="transform">0.6859207 -0.3240135 0.6515582 7.481132 0.7276763 0.3054208 -0.6141704 -6.50764 0 0.8953956 0.4452714 5.343665 0 0 0 1</matrix>
+        <instance_camera url="#Camera-camera"/>
+      </node>
+      <node id="Lamp" name="Lamp" type="NODE">
+        <matrix sid="transform">-0.2908646 -0.7711008 0.5663932 4.076245 0.9551712 -0.1998834 0.2183912 1.005454 -0.05518906 0.6045247 0.7946723 5.903862 0 0 0 1</matrix>
+        <instance_light url="#Lamp-light"/>
+      </node>
+      <node id="_U_SP2Sides" name="_U_SP2Sides" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#_U_SP2Sides-mesh" name="_U_SP2Sides"/>
+        <node id="Y_Minus_Cells" name="Y_Minus_Cells" type="NODE">
+          <matrix sid="transform">1 0 0 0.15 0 1 0 0.05 0 0 1 0.05 0 0 0 1</matrix>
+          <instance_geometry url="#_U_SP2Sides_002-mesh" name="Y_Minus_Cells">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="CellColorYMinus-material" target="#CellColorYMinus-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+			<extra type="attach_point">
+				<technique profile="AGI">
+					<solar_panel group="Y_Minus_Cells" efficiency="30" />
+				</technique>
+			</extra>
+        </node>
+        <node id="Y_Plus_Cells" name="Y_Plus_Cells" type="NODE">
+          <matrix sid="transform">1 0 0 0.15 0 1 0 0.05 0 0 1 0.05 0 0 0 1</matrix>
+          <instance_geometry url="#_U_SP2Sides_001-mesh" name="Y_Plus_Cells">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="CellColorYPlus-material" target="#CellColorYPlus-material"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+			<extra type="attach_point">
+				<technique profile="AGI">
+					<solar_panel group="Y_Plus_Cells" efficiency="30" />
+				</technique>
+			</extra>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
